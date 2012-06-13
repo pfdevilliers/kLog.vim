@@ -1,16 +1,18 @@
 " Vim Syntax File
 "
-" Language:    Prolog
-" Maintainers: Aleksandar Dimitrov <aleks.dimitrov@googlemail.com>
+" Language:    Prolog (adapted for kLog)
+" Maintainers: Aleksandar Dimitrov <aleks.dimitrov@googlemail.com> (Original
+" creator of the prolog syntax file.)
+"              Francois de Villiers <devilliers.pf@gmail.com> (kLog additions)
 " Created:     Jul 31st, 2008
-" Changed:     Fri Aug  1 2008
+" Changed:     Jun 13th, 2012
 " Remark:      This file mostly follows
 "              http://www.sics.se/sicstus/docs/3.7.1/html/sicstus_45.html
 "              but also features some SWI-specific enhancements.
 "              The BNF cannot be followed strictly, but I tried to do my best.
 "
-" TODO:        - Difference Lists
-"              - Constraint logic programming
+"              Basically added some highlighting for the begin_domain and
+"              end_domain specification part.
 
 if version < 600
    syn clear
